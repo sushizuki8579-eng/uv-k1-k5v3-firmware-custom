@@ -20,5 +20,5 @@ jobs:
     - name: Upload firmware artifact
       uses: actions/upload-artifact@v4
       with:
-        name: firmware-artifact
-        path: build/Custom/f4hwn.custom.elf
+        name: firmware-bin
+        path: build/Custom/f4hwn.custom.bin
